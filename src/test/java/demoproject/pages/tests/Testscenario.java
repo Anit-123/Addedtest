@@ -79,6 +79,6 @@ public class Testscenario {
     } 
     @AfterSuite
     public void tearDown(){
-       // driver.quit();
+       driver.close();
     }
 }
